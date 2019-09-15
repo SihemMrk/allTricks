@@ -10,7 +10,6 @@ select {
   display: none;
 }
 #container {
-  position: relative;
   margin: 0 auto;
   width: 400px;
 }
@@ -28,10 +27,10 @@ select {
 }
 
 .optionsDiv {
-  position: absolute;
   color: #000;
   background-color: white;
   border: 1px solid rgb(228, 225, 225);
+  margin-right: 5px;
 }
 .optionDivTaille {
   font-size: 18px;

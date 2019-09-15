@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+select {
+  display: none;
+}
+#container {
+  position: relative;
+  margin: 0 auto;
+  width: 400px;
+}
+
+.selectDiv {
+  color: #000;
+  background-color: #eee;
+  border: 2px solid #000;
+  padding: 10px 0 5px 10px;
+  font-weight: bold;
+  background-image: url("arrow.png");
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  background-position: right;
+}
+
+.optionsDiv {
+  position: absolute;
+  color: #000;
+  background-color: white;
+  border: 1px solid rgb(228, 225, 225);
+}
+.optionDivTaille {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 8px;
+  background-color: #eee;
+}
+
+.optionDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 8px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.pValue {
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.pPrice {
+  font-weight: bold;
+  color: red;
+}
+
+hr {
+  width: 370px;
+  margin: 0 auto;
+  color: #eee;
+  background-color: #eee;
+  border: 0;
+  height: 1px;
+}
